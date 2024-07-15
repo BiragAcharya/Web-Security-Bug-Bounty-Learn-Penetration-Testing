@@ -1,0 +1,327 @@
+1
+00:00:00,360 --> 00:00:01,050
+Welcome back.
+
+2
+00:00:01,440 --> 00:00:08,490
+Let's discuss bug bounty a little bit, we mentioned it in the previous video, but what exactly is
+
+3
+00:00:08,490 --> 00:00:08,640
+it?
+
+4
+00:00:09,730 --> 00:00:17,560
+There is one thing that we know it has nothing to do with the real bugs bug bounty or hunting for bugs
+
+5
+00:00:17,740 --> 00:00:22,060
+is mostly referred to as discovering vulnerabilities in a Web page.
+
+6
+00:00:23,050 --> 00:00:26,950
+Now you can hunt for bugs in applications and other type of programs.
+
+7
+00:00:27,310 --> 00:00:35,290
+But usually when someone says bug hunting or bug bounty, it's referred to as a website bug or unknowability.
+
+8
+00:00:36,190 --> 00:00:42,690
+Now, these women abilities can be anything from past verbal abilities, maybe they are not encrypted
+
+9
+00:00:42,850 --> 00:00:49,570
+well and the attacker can easily break them, or perhaps there is a database of vulnerability and the
+
+10
+00:00:49,570 --> 00:00:56,410
+attacker can extract all of the information from the database, including usernames, passwords, emails
+
+11
+00:00:56,410 --> 00:01:00,190
+and other personal information that shouldn't be public.
+
+12
+00:01:01,230 --> 00:01:07,000
+Some vulnerabilities can also target not only websites, but client devices as well.
+
+13
+00:01:07,950 --> 00:01:13,110
+By this, I mean that they're going to build things that could also be dangerous for the client that
+
+14
+00:01:13,110 --> 00:01:14,980
+visits a vulnerable Web page.
+
+15
+00:01:15,630 --> 00:01:21,420
+But don't worry, all of this is something that people talk about in the course and we will explain
+
+16
+00:01:21,420 --> 00:01:23,080
+how all of these attacks work.
+
+17
+00:01:23,670 --> 00:01:29,130
+For now, it's important that we mention what do we need before we even start hacking?
+
+18
+00:01:30,140 --> 00:01:36,530
+So the first thing that we want to do is to create a virtual environment, and this is something that
+
+19
+00:01:36,530 --> 00:01:40,980
+we mentioned in the previous video, we want to create a virtual machine that we will use for hacking.
+
+20
+00:01:41,450 --> 00:01:46,490
+This will be our own personal machine that we're strictly going to use to run different tools and perform
+
+21
+00:01:46,490 --> 00:01:47,420
+different attacks.
+
+22
+00:01:47,990 --> 00:01:53,900
+But we will also be installing vulnerable virtual machines that are running a Web page that we can attack
+
+23
+00:01:53,900 --> 00:01:55,190
+and that we can practice on.
+
+24
+00:01:55,850 --> 00:01:57,160
+Why you might be asking?
+
+25
+00:01:57,470 --> 00:02:01,390
+Well, we can't just target any website without permission.
+
+26
+00:02:02,120 --> 00:02:07,790
+That is why we are going to create our own machine with a website that we can attack as much as we want.
+
+27
+00:02:08,590 --> 00:02:11,860
+Second thing that we must get used to is Kelly Linux.
+
+28
+00:02:12,220 --> 00:02:15,800
+Now, Kelly, Linux is an operating system the penetration testers use.
+
+29
+00:02:16,390 --> 00:02:20,560
+You probably already know it, but we are going to use it inside of this course.
+
+30
+00:02:21,310 --> 00:02:26,230
+It is a Linux based operating system that comes with a bunch of useful tools that hackers need.
+
+31
+00:02:26,770 --> 00:02:34,150
+Out of all of that, the most important thing for us to learn is to introduce ourselves with basic command
+
+32
+00:02:34,150 --> 00:02:36,010
+line usage inside of Linux.
+
+33
+00:02:36,550 --> 00:02:38,370
+Don't worry, it will be nothing to advance.
+
+34
+00:02:38,380 --> 00:02:39,940
+We just want to cover the basics.
+
+35
+00:02:41,070 --> 00:02:48,720
+And the last but not least, we need some basic website structure, knowledge, we need to understand
+
+36
+00:02:48,720 --> 00:02:53,280
+the basics of website development just so we can understand the attacks better.
+
+37
+00:02:54,030 --> 00:02:58,920
+For this, we need to know what different programming languages in web development are used for, and
+
+38
+00:02:58,930 --> 00:03:00,380
+we need to recognize them.
+
+39
+00:03:01,020 --> 00:03:06,680
+So we will briefly cover HTML JavaScript and ask you out.
+
+40
+00:03:07,620 --> 00:03:08,910
+Why do we need to cover this?
+
+41
+00:03:09,360 --> 00:03:15,180
+Well, most of these attacks are based on injecting code from these programming languages, but let's
+
+42
+00:03:15,180 --> 00:03:16,650
+not confuse ourselves right now.
+
+43
+00:03:17,010 --> 00:03:19,340
+We'll talk about that when the time comes.
+
+44
+00:03:19,980 --> 00:03:25,800
+Right now, I want to show you a quick little bug that is easy to perform, yet it's still considered
+
+45
+00:03:25,800 --> 00:03:27,090
+a small vulnerability.
+
+46
+00:03:27,720 --> 00:03:33,930
+Just so I can give you an insight on how easy can it be to sometimes discover a bug?
+
+47
+00:03:35,020 --> 00:03:41,500
+So here I am on a Web page that I'm running inside of my local network and we can see that this Web
+
+48
+00:03:41,500 --> 00:03:44,280
+page right here performs a simple task.
+
+49
+00:03:44,650 --> 00:03:47,980
+It asks us to enter the background color that we would like to see.
+
+50
+00:03:48,460 --> 00:03:51,430
+Whatever color we enter, the background will change color.
+
+51
+00:03:52,410 --> 00:03:59,700
+So, for example, if I type red and said background color, nothing will change because it tells us
+
+52
+00:03:59,700 --> 00:04:03,780
+to enter the color in this format and it even gives us an example.
+
+53
+00:04:04,320 --> 00:04:10,500
+Now, this is not important for us, so let's just copy the example for the red color and let's paste
+
+54
+00:04:10,500 --> 00:04:11,930
+it right here.
+
+55
+00:04:12,540 --> 00:04:16,980
+If we set background color while it changes to red.
+
+56
+00:04:17,850 --> 00:04:21,570
+But is this the only thing that this Web page can perform?
+
+57
+00:04:22,470 --> 00:04:28,170
+What if we, for example, try to inject HTML code inside this input right here?
+
+58
+00:04:29,070 --> 00:04:30,470
+Well, let's give it the try.
+
+59
+00:04:30,600 --> 00:04:39,270
+The most simple HTML code we can enter is each one which stands for header size one and then test and
+
+60
+00:04:39,270 --> 00:04:41,610
+then we close the tags for the header.
+
+61
+00:04:42,840 --> 00:04:50,520
+Don't worry, if you don't notice, we will cover this as well, and if we set background color, it
+
+62
+00:04:50,520 --> 00:04:54,090
+tells me the current background color is best.
+
+63
+00:04:54,780 --> 00:05:00,540
+Just by looking at this, I can already tell that this is a bug in this webpage.
+
+64
+00:05:01,140 --> 00:05:06,840
+You might not be able to tell it right now, but by the end of the course, recognizing these bugs will
+
+65
+00:05:06,840 --> 00:05:08,190
+become second nature for you.
+
+66
+00:05:08,910 --> 00:05:10,950
+So what did they notice here?
+
+67
+00:05:11,130 --> 00:05:18,990
+Well, we typed some text in the size of a header one, and it seems that this website or web page executed
+
+68
+00:05:18,990 --> 00:05:19,200
+it.
+
+69
+00:05:19,680 --> 00:05:25,530
+It read it as an HTML code and it printed our text in size of header one.
+
+70
+00:05:26,580 --> 00:05:33,870
+Even if we tried to, for example, underline by using you inside of the HTML tags and using header
+
+71
+00:05:33,870 --> 00:05:44,400
+one and then typing test again, then we close header one and close underline text, we click said background
+
+72
+00:05:44,400 --> 00:05:44,760
+color.
+
+73
+00:05:45,770 --> 00:05:53,840
+Well, now we got our text written in size header one and also underlined, and this is called HTML
+
+74
+00:05:53,840 --> 00:06:01,310
+injection, this is a bug for the Web page, allows you to input HTML code in some user input field,
+
+75
+00:06:01,310 --> 00:06:03,680
+which in this case is this background color field.
+
+76
+00:06:04,100 --> 00:06:10,910
+And the Web page will process it as HTML code so we can conclude that this user input is not filtered.
+
+77
+00:06:11,060 --> 00:06:14,900
+Well, if this is too overwhelming for now, don't worry.
+
+78
+00:06:14,900 --> 00:06:18,200
+We will explain all of this in details later in the course.
+
+79
+00:06:18,380 --> 00:06:24,470
+I just want to show you a cool little bug that is so easy to find, yet it is discoverable in so many
+
+80
+00:06:24,470 --> 00:06:26,140
+websites that are currently online.
+
+81
+00:06:26,810 --> 00:06:30,510
+Now, enough of talking now that you explained bug bounty a little bit.
+
+82
+00:06:30,710 --> 00:06:35,150
+Let's get straight into setting up our virtual environment, see in the next video.

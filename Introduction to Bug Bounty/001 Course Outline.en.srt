@@ -1,0 +1,359 @@
+1
+00:00:00,150 --> 00:00:07,530
+Hello, welcome to the Web security and bug bounty course now you've already seen the promo video and
+
+2
+00:00:07,530 --> 00:00:12,990
+you kind of know what this course is about, but in this video, we want to do a full course outline
+
+3
+00:00:12,990 --> 00:00:18,720
+so that you know exactly what we're going to learn, so that you have a clear path to success and what
+
+4
+00:00:18,720 --> 00:00:20,400
+this course is going to give you.
+
+5
+00:00:20,730 --> 00:00:27,510
+Now, one thing to keep in mind is that this course isn't just for ethical hackers or penetration testers.
+
+6
+00:00:27,810 --> 00:00:33,250
+We've made this course so that anybody that's interested in Web security can learn from it.
+
+7
+00:00:33,600 --> 00:00:39,480
+So if you are a web developer that wants to improve their web security, well, this course is for you
+
+8
+00:00:39,480 --> 00:00:39,840
+as well.
+
+9
+00:00:40,020 --> 00:00:46,170
+And obviously, if you want to become a bug bounty hunter or a penetration tester, well, this course
+
+10
+00:00:46,170 --> 00:00:47,580
+is definitely for you as well.
+
+11
+00:00:47,910 --> 00:00:48,210
+All right.
+
+12
+00:00:48,210 --> 00:00:53,450
+Let's get into actually what the course is going to look like for you right off the bat.
+
+13
+00:00:53,550 --> 00:00:56,310
+We're going to start off by creating what we call our virtual.
+
+14
+00:00:56,760 --> 00:01:01,980
+This is a hacking lab to make sure that we keep our computers safe throughout the course and we can
+
+15
+00:01:01,980 --> 00:01:05,390
+do different sorts of attacks and experiments on them.
+
+16
+00:01:05,400 --> 00:01:11,660
+And this course is going to work with any type of system that you have, Linux, Windows, Mac OS,
+
+17
+00:01:11,670 --> 00:01:15,180
+everything's going to work because we're going to set up this virtual lab for you.
+
+18
+00:01:15,870 --> 00:01:19,870
+From there, we're going to learn about enumeration and information gathered.
+
+19
+00:01:20,160 --> 00:01:24,240
+This is where we actually start with the bug bounty and website penetration testing.
+
+20
+00:01:24,270 --> 00:01:29,610
+We cover numerous topics and tools that allow us to gather as much information about a certain Web site
+
+21
+00:01:29,640 --> 00:01:30,380
+as possible.
+
+22
+00:01:30,840 --> 00:01:33,800
+From there, we get into introducing you to burps.
+
+23
+00:01:34,170 --> 00:01:37,200
+And this is a very important tool of a bug hunter.
+
+24
+00:01:37,470 --> 00:01:41,700
+And it will set us up for a lot of the topics that we cover later in the course.
+
+25
+00:01:42,240 --> 00:01:47,670
+We then get into our first but and this first bug on our website, we're going to talk about a Schimel
+
+26
+00:01:47,670 --> 00:01:48,170
+injection.
+
+27
+00:01:48,510 --> 00:01:52,090
+It's one of the easier bugs to find and use.
+
+28
+00:01:52,350 --> 00:01:53,700
+So this is where we start.
+
+29
+00:01:54,060 --> 00:01:56,150
+But then we get into more complex topics.
+
+30
+00:01:56,790 --> 00:02:00,440
+For example, we're going to talk about command injections and execution.
+
+31
+00:02:01,050 --> 00:02:07,200
+This is an extremely dangerous bug where we can inject commands through an input and affect a server
+
+32
+00:02:07,200 --> 00:02:07,920
+or a system.
+
+33
+00:02:08,640 --> 00:02:11,100
+We then talk about broken authentication.
+
+34
+00:02:11,100 --> 00:02:14,860
+What happens when authentication on a Web site is not done properly?
+
+35
+00:02:14,940 --> 00:02:18,180
+Well, we can take advantage of it and we're going to show you how to do that.
+
+36
+00:02:18,420 --> 00:02:24,330
+And we're going to use different examples to things like cookie values, HTP requests, forgot password
+
+37
+00:02:24,330 --> 00:02:25,460
+page and a lot more.
+
+38
+00:02:25,680 --> 00:02:29,460
+We then get into brute force attacks even if a website is secure.
+
+39
+00:02:29,490 --> 00:02:36,420
+If we as testers have an easy and simple password set, then it's also going to be easy for us to guess
+
+40
+00:02:36,420 --> 00:02:38,520
+it using what we call brute force attacks.
+
+41
+00:02:38,640 --> 00:02:42,800
+And we're going to show you how to prevent brute force attacks as well as show you how they work.
+
+42
+00:02:43,650 --> 00:02:46,530
+We then talk about broken access control.
+
+43
+00:02:46,680 --> 00:02:53,820
+Access control enforces policy such as what user can and cannot do or intended permissions for a user.
+
+44
+00:02:54,270 --> 00:02:58,200
+When that access control is broken, well, we can take advantage of it.
+
+45
+00:02:59,040 --> 00:03:02,310
+Then we dive into what we call cross site scripting.
+
+46
+00:03:02,340 --> 00:03:08,400
+This is a very common attack and we're going to talk about all three main types of cross site scripting
+
+47
+00:03:08,430 --> 00:03:12,360
+which are stored, reflected and DOM based cross site scripting.
+
+48
+00:03:12,750 --> 00:03:19,230
+Then we dive into one of the most common ways that you can effect a system and probably one of the bigger
+
+49
+00:03:19,230 --> 00:03:23,430
+vulnerabilities that always comes up, and that is escarole injection.
+
+50
+00:03:23,610 --> 00:03:28,510
+This is where we're able to access or manipulate the database.
+
+51
+00:03:28,680 --> 00:03:31,080
+This is probably one of the most important section.
+
+52
+00:03:31,320 --> 00:03:36,020
+And again, we're going to talk about how we can use it and also how to prevent it.
+
+53
+00:03:36,630 --> 00:03:37,560
+I know we have a lot.
+
+54
+00:03:37,710 --> 00:03:39,750
+There's still a few more in this section.
+
+55
+00:03:39,750 --> 00:03:47,040
+We're going to talk about XML data and how we can use Xixi or XML external entity where it allows an
+
+56
+00:03:47,040 --> 00:03:50,790
+attacker to interfere with a website that processes XML data.
+
+57
+00:03:51,510 --> 00:03:56,280
+Finally, we talk about the idea of insufficient logging and monitoring.
+
+58
+00:03:56,310 --> 00:04:01,890
+You see, to have proper security, you need to have proper logging and monitoring to keep track of
+
+59
+00:04:01,890 --> 00:04:07,800
+all the requests and information that a page might go through, because this can help us determine whether
+
+60
+00:04:07,830 --> 00:04:09,990
+a certain attack is taking place or not.
+
+61
+00:04:10,000 --> 00:04:14,290
+If we don't know when an attack is taking place while then we're just not going to notice it.
+
+62
+00:04:14,550 --> 00:04:18,420
+So this is another important topic that we left towards the end of the course.
+
+63
+00:04:18,840 --> 00:04:21,000
+But then probably why you're taking this course.
+
+64
+00:04:21,000 --> 00:04:24,900
+And the most exciting part is right here, the bug hunting.
+
+65
+00:04:25,260 --> 00:04:27,840
+So we're going to talk about how to monetize bug hunting.
+
+66
+00:04:27,840 --> 00:04:34,740
+How can you become an independent researcher that tests Web sites and perhaps collect bug bounty?
+
+67
+00:04:35,040 --> 00:04:39,180
+Everything that we've learned in this course, we're going to show you how to you can monetize this
+
+68
+00:04:39,180 --> 00:04:39,660
+knowledge.
+
+69
+00:04:40,050 --> 00:04:46,140
+And we're going to talk to you about different platforms that you can use to start a career as a bug
+
+70
+00:04:46,140 --> 00:04:48,220
+hunter, if that's something that you want to do.
+
+71
+00:04:48,870 --> 00:04:54,240
+Finally, this course is meant for anybody with any sort of programming knowledge.
+
+72
+00:04:54,240 --> 00:04:57,720
+As a matter of fact, you can take this course without any programming knowledge.
+
+73
+00:04:57,750 --> 00:04:59,910
+We include bonus material for web.
+
+74
+00:04:59,970 --> 00:05:06,510
+Developer fundamentals, bonus material on Linux and how to use the Linux terminal and even networking.
+
+75
+00:05:06,690 --> 00:05:09,370
+The idea is to take you from zero to mastery.
+
+76
+00:05:09,830 --> 00:05:16,530
+Finally, this course, well, you're in good hands because Alexa is a penetration tester with many
+
+77
+00:05:16,530 --> 00:05:17,760
+years of experience.
+
+78
+00:05:17,760 --> 00:05:24,090
+And he's actually worked on discovering vulnerabilities for multiple companies and government systems.
+
+79
+00:05:24,120 --> 00:05:29,970
+He's going to show you from his professional standpoint how all of this work and how you can actually
+
+80
+00:05:29,970 --> 00:05:31,790
+apply this in real life.
+
+81
+00:05:31,800 --> 00:05:33,450
+It's going to be a ton of fun.
+
+82
+00:05:33,600 --> 00:05:37,190
+And the final thing I want to talk about is our community that we have.
+
+83
+00:05:37,320 --> 00:05:42,210
+When he joined this course, as always, as part of the Zurda Mastery community, you get to join our
+
+84
+00:05:42,210 --> 00:05:47,340
+private online discord where we're chatting with people every day, helping each other out, solving
+
+85
+00:05:47,340 --> 00:05:52,020
+problems, doing challenges together and feeling like you're part of a classroom.
+
+86
+00:05:52,170 --> 00:05:55,500
+You're going to find myself in it there every day chatting.
+
+87
+00:05:55,500 --> 00:06:00,360
+And we have a dedicated channel just for this course so that you get to meet other classmates.
+
+88
+00:06:00,690 --> 00:06:02,340
+All right, that's enough talk.
+
+89
+00:06:02,370 --> 00:06:03,780
+I think it's time to get started.
+
+90
+00:06:04,050 --> 00:06:07,680
+Let's dive into the course and let's learn all about Web security.

@@ -1,0 +1,271 @@
+1
+00:00:00,650 --> 00:00:02,570
+Hello and welcome to the course.
+
+2
+00:00:03,440 --> 00:00:10,670
+Now, the best way that we can start this is by explaining what even is penetration testing.
+
+3
+00:00:11,480 --> 00:00:15,800
+Most of you will know this, but let's still cover it as a refresher, at least.
+
+4
+00:00:16,610 --> 00:00:23,360
+So whether we're talking about network penetration testing or website penetration testing or something
+
+5
+00:00:23,360 --> 00:00:29,840
+as simple as a single device penetration testing, all of this has the same part inside of their name
+
+6
+00:00:30,410 --> 00:00:32,100
+penetration testing.
+
+7
+00:00:32,660 --> 00:00:33,860
+So what is it?
+
+8
+00:00:34,550 --> 00:00:42,740
+Well, we can refer to it as an action that we apply to enumerate and discover new vulnerabilities,
+
+9
+00:00:43,100 --> 00:00:47,290
+as well as exploit them and take control of our target system.
+
+10
+00:00:48,290 --> 00:00:54,680
+Now, most of you might or might not know, but penetration testing is constructed of couple of stages.
+
+11
+00:00:55,370 --> 00:01:01,910
+Let's say we have our hacking machine on the left and the target device that we are trying to gain access
+
+12
+00:01:01,910 --> 00:01:03,290
+to is on the right.
+
+13
+00:01:04,330 --> 00:01:09,530
+This device can be anything from a PC to a mobile phone to a website application.
+
+14
+00:01:09,760 --> 00:01:11,130
+It doesn't really matter.
+
+15
+00:01:11,200 --> 00:01:17,760
+The process of penetration testing goes the same way we start off with gathering information.
+
+16
+00:01:18,780 --> 00:01:21,900
+We want to know as much about our target as possible.
+
+17
+00:01:22,880 --> 00:01:30,620
+Why, what this allows us to better plan out our attack later on, gathering information can be done
+
+18
+00:01:30,620 --> 00:01:32,780
+both actively and passively.
+
+19
+00:01:33,840 --> 00:01:40,320
+Active information gathering is gathering information by interacting with the target, while passive
+
+20
+00:01:40,320 --> 00:01:47,370
+information gathering means that we get all of our information without ever interacting with the target
+
+21
+00:01:47,520 --> 00:01:48,360
+in any way.
+
+22
+00:01:49,170 --> 00:01:55,950
+For example, we can get information about Facebook by Googling it and reading about it on another site,
+
+23
+00:01:55,950 --> 00:02:00,690
+like Wikipedia that is considered passive information gathering.
+
+24
+00:02:01,750 --> 00:02:09,490
+After this comes scanning, now, scanning is a deeper form of information gathering, and it's done
+
+25
+00:02:09,520 --> 00:02:16,940
+actively, which means we directly interact with the target in order to find out more information about
+
+26
+00:02:16,940 --> 00:02:17,100
+it.
+
+27
+00:02:18,100 --> 00:02:24,750
+Usually this will be the information of technical nature, like what technologies does the target run,
+
+28
+00:02:25,150 --> 00:02:31,180
+what is their website made of if they have one, which post they have open and so on and so on?
+
+29
+00:02:32,090 --> 00:02:37,130
+We finished scanning by performing vulnerability analysis winnability.
+
+30
+00:02:37,200 --> 00:02:44,090
+Now, this is just us finding security holes in the target system with the help of information that
+
+31
+00:02:44,090 --> 00:02:44,630
+we gathered.
+
+32
+00:02:45,930 --> 00:02:51,690
+After that, we can successfully exploit the target by using different methods and attacks.
+
+33
+00:02:52,730 --> 00:02:55,620
+These are the main steps to penetration testing.
+
+34
+00:02:56,210 --> 00:03:01,160
+There are other steps, of course, that come after, like maintaining access on the target machine
+
+35
+00:03:01,340 --> 00:03:02,690
+and covering tracks.
+
+36
+00:03:02,690 --> 00:03:09,440
+But these steps that we mentioned are crucial now that we covered and went through the basic steps of
+
+37
+00:03:09,440 --> 00:03:12,100
+penetration testing and what those steps are.
+
+38
+00:03:12,860 --> 00:03:17,750
+We can also say that penetration testing can be divided into two main groups.
+
+39
+00:03:18,280 --> 00:03:25,280
+We got network penetration testing, which could, for example, be let's say a company gives you their
+
+40
+00:03:25,280 --> 00:03:31,430
+IP ranges of their networks and we're supposed to perform a penetration test on all of their devices
+
+41
+00:03:31,580 --> 00:03:34,520
+to see if there are any security issues.
+
+42
+00:03:35,680 --> 00:03:42,710
+Those devices could be anything from computers, mobile phones to printers, and for the second group,
+
+43
+00:03:42,730 --> 00:03:46,900
+we can say that its website application penetration testing.
+
+44
+00:03:47,890 --> 00:03:53,650
+Here we perform various different tacks to determine whether the website that we are attacking is properly
+
+45
+00:03:53,650 --> 00:04:01,660
+coded and secured, and website penetration testing is something that will put the most focus on inside
+
+46
+00:04:01,660 --> 00:04:02,290
+of this course.
+
+47
+00:04:03,350 --> 00:04:09,260
+This is because this field is becoming bigger and bigger every single day due to millions and millions
+
+48
+00:04:09,260 --> 00:04:14,690
+of websites that are online and available right now on the Internet, the search for people to secure
+
+49
+00:04:14,690 --> 00:04:17,320
+and protect them is rising every day.
+
+50
+00:04:17,900 --> 00:04:21,590
+You might have also heard of a term called bug bounty.
+
+51
+00:04:22,530 --> 00:04:24,250
+This is pretty much the same thing.
+
+52
+00:04:24,600 --> 00:04:31,560
+It's mostly referring to discovering bugs or also known as vulnerabilities inside the Web page and backboned
+
+53
+00:04:31,560 --> 00:04:34,590
+is something that we'll discuss a little bit more in the next video.
+
+54
+00:04:34,590 --> 00:04:41,910
+But before we get to it, let's mention what are the two main things we need to perform, bug bounty
+
+55
+00:04:41,940 --> 00:04:44,040
+or website penetration testing.
+
+56
+00:04:44,730 --> 00:04:49,810
+So we will need a virtual machine and a wonderful Web page.
+
+57
+00:04:50,620 --> 00:04:56,070
+Now we will install a virtual machine to create our own hacking lab or environment that we will use
+
+58
+00:04:56,070 --> 00:04:58,250
+to perform all of our attacks.
+
+59
+00:04:58,740 --> 00:05:04,320
+But as you may notice, to be able to perform a penetration test on the website, we will need a website.
+
+60
+00:05:04,560 --> 00:05:04,900
+Right.
+
+61
+00:05:05,790 --> 00:05:11,220
+Luckily, there are many vulnerable Web pages that we can run within our local network on the virtual
+
+62
+00:05:11,220 --> 00:05:16,650
+machine that are useful for practicing different attacks and discovering different bugs.
+
+63
+00:05:17,640 --> 00:05:23,340
+And that is also why we need to cover virtual machines now, don't worry, we will cover installing
+
+64
+00:05:23,340 --> 00:05:28,440
+all of these from installing our own machine that we will use to hack to installing machines with a
+
+65
+00:05:28,440 --> 00:05:29,770
+vulnerable webpage.
+
+66
+00:05:30,300 --> 00:05:33,380
+And trust me, it's not that hard as it might sound like.
+
+67
+00:05:34,050 --> 00:05:40,200
+Nonetheless, now that we mention some basics of penetration testing, let's discuss bug bounty in the
+
+68
+00:05:40,200 --> 00:05:42,180
+next video, SIDOR.
