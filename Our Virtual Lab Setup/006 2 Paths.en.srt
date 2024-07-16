@@ -1,0 +1,87 @@
+1
+00:00:00,450 --> 00:00:08,730
+OK, just quick break, we have finished creating our environment and we are now ready to start getting
+
+2
+00:00:08,730 --> 00:00:15,870
+into all the website hacking and bug hunting, but there are a couple prerequisites that you might need
+
+3
+00:00:15,870 --> 00:00:16,670
+to do first.
+
+4
+00:00:16,680 --> 00:00:20,250
+In case you're a complete beginner and now is the best time to do them.
+
+5
+00:00:20,790 --> 00:00:27,090
+However, if you do feel confident knowing the basics of these things, feel free to continue with the
+
+6
+00:00:27,090 --> 00:00:34,050
+next section where we start a website and numeration and information gathering, and after that we dive
+
+7
+00:00:34,050 --> 00:00:37,750
+straight into website penetration testing and bug hunting.
+
+8
+00:00:38,520 --> 00:00:45,540
+However, as I mentioned, we need to be aware of bonus requirements first and lectures about them will
+
+9
+00:00:45,540 --> 00:00:51,350
+be inside the bonus sections, which are some very basic website development or website structure knowledge.
+
+10
+00:00:51,840 --> 00:00:57,540
+We must know what the email is, what JavaScript is, and other languages used in Web development.
+
+11
+00:00:58,080 --> 00:01:01,330
+We must know what they are for and how we can recognize them.
+
+12
+00:01:01,890 --> 00:01:05,760
+Besides that, we must also be familiar with Linux a little bit.
+
+13
+00:01:06,480 --> 00:01:12,300
+We must know the basic commands of Linux terminal and get familiarized with Linux structure itself.
+
+14
+00:01:13,160 --> 00:01:20,900
+And the last thing is that we must know networking a little bit as well, nothing to advance, but we
+
+15
+00:01:20,900 --> 00:01:28,730
+must know some basic things regarding IP addresses, local networks, DNS, HTP and so on and so on.
+
+16
+00:01:29,570 --> 00:01:35,360
+All three of these topics we have in the course added as bonus sections, the web development videos
+
+17
+00:01:35,360 --> 00:01:42,050
+and the links videos are in video format, while networking theory we offer in pedia format available
+
+18
+00:01:42,050 --> 00:01:42,680
+to download.
+
+19
+00:01:43,400 --> 00:01:49,610
+After you learn and get all three of them done and you feel comfortable with them, then we can proceed
+
+20
+00:01:49,610 --> 00:01:52,130
+to website penetration testing lectures.
+
+21
+00:01:52,860 --> 00:01:59,540
+OK, I just want to mention this and nonetheless we continue our journey in the next section where we
+
+22
+00:01:59,540 --> 00:02:04,880
+will learn how to enumerate websites and gather as much information about them as we can.

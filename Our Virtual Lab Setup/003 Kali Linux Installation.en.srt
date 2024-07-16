@@ -1,0 +1,699 @@
+1
+00:00:00,820 --> 00:00:01,510
+Welcome back.
+
+2
+00:00:01,960 --> 00:00:07,870
+So in the previous video, we created our first virtual machine inside the bubble virtual box.
+
+3
+00:00:08,620 --> 00:00:14,230
+Now it is time that we install our clinics operating system inside of this machine.
+
+4
+00:00:14,950 --> 00:00:22,030
+But to be able to do that, we want to change some settings inside of this machine first before we actually
+
+5
+00:00:22,030 --> 00:00:22,590
+started.
+
+6
+00:00:23,260 --> 00:00:29,620
+So to access the settings of a virtual machine, we can select the virtual machine inside of our virtual
+
+7
+00:00:29,620 --> 00:00:32,560
+box manager and click on settings.
+
+8
+00:00:33,860 --> 00:00:39,770
+Now, to even be able to install the clinic's operating system, we must first add it to this machine,
+
+9
+00:00:39,770 --> 00:00:40,160
+right?
+
+10
+00:00:41,080 --> 00:00:48,900
+And to do that inside a virtual box, we must navigate to the storage settings and under the controller
+
+11
+00:00:49,090 --> 00:00:49,800
+idea.
+
+12
+00:00:50,290 --> 00:00:52,390
+We want to click on this ad icon.
+
+13
+00:00:53,110 --> 00:00:59,170
+And if you didn't see it really well, it just looks like a disk with a plus pretty much click on it
+
+14
+00:00:59,440 --> 00:01:02,740
+and you want to click on this ad button right here.
+
+15
+00:01:03,750 --> 00:01:09,900
+Once you do that, you want to navigate to wherever you have your ISO image saved or your Linux image
+
+16
+00:01:09,900 --> 00:01:13,710
+saved, for me it's on desktop and you want to double click it.
+
+17
+00:01:14,670 --> 00:01:19,410
+Then you want to select it right here in this small window and you want to click on CHOOSE.
+
+18
+00:01:20,600 --> 00:01:26,400
+Now, under the control idea, you will have your clinic's image and you will have this empty image.
+
+19
+00:01:26,600 --> 00:01:28,670
+Now, this empty image we don't really need.
+
+20
+00:01:28,700 --> 00:01:29,420
+So we can just.
+
+21
+00:01:29,420 --> 00:01:29,840
+Right.
+
+22
+00:01:29,840 --> 00:01:36,020
+Click it and remove attachment and we will be left with just called in two thousand twenty one point
+
+23
+00:01:36,140 --> 00:01:36,830
+one version.
+
+24
+00:01:37,880 --> 00:01:43,550
+OK, another thing that we want to do inside of the settings is we want to navigate to the network settings
+
+25
+00:01:44,030 --> 00:01:48,900
+and we want to change the net to Bridgid adapter.
+
+26
+00:01:49,250 --> 00:01:55,340
+Now, if you want to read more about these adapters inside the virtual box, you can check out our networking
+
+27
+00:01:55,370 --> 00:01:58,040
+PDF file that we created for this course.
+
+28
+00:01:58,220 --> 00:02:03,430
+And it has an explanation on all of these adapters right here and why we use this one.
+
+29
+00:02:04,220 --> 00:02:12,110
+In short words, we use the adapter because it allows our DCPI from our network to give an IP address
+
+30
+00:02:12,110 --> 00:02:13,820
+to our clinics virtual machine.
+
+31
+00:02:14,150 --> 00:02:19,880
+And in this case, our clinic's virtual machine will be viewed as another device on our network.
+
+32
+00:02:20,770 --> 00:02:25,780
+It will be able to communicate with all the other devices inside of our network, with our router,
+
+33
+00:02:26,050 --> 00:02:29,580
+with a laptop that you might have connected with your mobile device.
+
+34
+00:02:30,130 --> 00:02:34,620
+But if you have it under net, which is by default, it won't be able to do it.
+
+35
+00:02:35,260 --> 00:02:37,180
+So let's just change it to breach the adapter.
+
+36
+00:02:37,180 --> 00:02:42,580
+And under here, you want to select the adapter name or the adapter that you want to use.
+
+37
+00:02:43,300 --> 00:02:49,510
+Now, what I found from personal experience is that if you go with the cable connection, it most likely
+
+38
+00:02:49,510 --> 00:02:55,570
+will always work now via wireless adapters, not to create problems sometimes, and they might need
+
+39
+00:02:55,570 --> 00:02:58,780
+some additional TRIVERS installation in order to run.
+
+40
+00:02:59,350 --> 00:03:06,100
+So if you're able to try going with cable or wired connection, OK, these are the two settings that
+
+41
+00:03:06,100 --> 00:03:06,910
+we wanted to change.
+
+42
+00:03:07,240 --> 00:03:13,630
+Once we do that, we can click on OK, and right now we are ready to start our virtual machine.
+
+43
+00:03:14,320 --> 00:03:17,500
+To do that, we want to click on this start erro.
+
+44
+00:03:19,360 --> 00:03:26,030
+And it will run our virtual machine or it will start the installation process of Linux.
+
+45
+00:03:26,170 --> 00:03:29,560
+Remember, it's an operating system, so it must be installed first.
+
+46
+00:03:31,520 --> 00:03:36,200
+Here is the window of our rental machine, and you will notice if you try to enlarge it, it will pretty
+
+47
+00:03:36,200 --> 00:03:37,410
+much stay the same size.
+
+48
+00:03:37,430 --> 00:03:39,500
+It will have this white surrounding it.
+
+49
+00:03:39,500 --> 00:03:41,860
+But don't worry, it will not stay like this forever.
+
+50
+00:03:42,110 --> 00:03:44,730
+It will only stay like this during the installation.
+
+51
+00:03:45,260 --> 00:03:50,800
+So what we want to do is we want to choose the graphical install right here in this menu.
+
+52
+00:03:51,110 --> 00:03:54,020
+You can also go with install about the graphical install.
+
+53
+00:03:54,290 --> 00:03:55,470
+Looks a little bit better.
+
+54
+00:03:55,820 --> 00:03:56,620
+Let's click here.
+
+55
+00:03:56,630 --> 00:03:57,080
+Enter.
+
+56
+00:03:59,750 --> 00:04:05,490
+And by the way, your mouth will not work inside of the virtual machine yet during the installation.
+
+57
+00:04:05,540 --> 00:04:09,500
+So you must navigate with your keyboard inside of the installation process.
+
+58
+00:04:11,440 --> 00:04:13,260
+Let's wait for the next step.
+
+59
+00:04:14,360 --> 00:04:20,060
+And here it is, we want to select the language to be English for me, you can choose whichever language
+
+60
+00:04:20,060 --> 00:04:22,760
+you want the location.
+
+61
+00:04:22,790 --> 00:04:23,780
+It doesn't really matter.
+
+62
+00:04:23,810 --> 00:04:28,030
+I will just select United States and the configuration of the keyboard.
+
+63
+00:04:28,250 --> 00:04:30,250
+You can also choose whatever you like right here.
+
+64
+00:04:30,260 --> 00:04:34,370
+I'm going to go with American English and click on Next.
+
+65
+00:04:35,170 --> 00:04:39,340
+And this installation process will actually take about an hour to finish.
+
+66
+00:04:39,520 --> 00:04:42,070
+So, of course, this is not going to be an hour long video.
+
+67
+00:04:42,080 --> 00:04:47,290
+So I'm just going to skip through some longer parts of installation and I'm just going to cover the
+
+68
+00:04:47,290 --> 00:04:49,660
+steps where we actually have to choose something.
+
+69
+00:04:50,170 --> 00:04:55,030
+I will fast forward the installation so you don't have to sit through a one hour video.
+
+70
+00:04:55,450 --> 00:04:57,850
+OK, so let's wait for the next step.
+
+71
+00:04:59,340 --> 00:05:04,950
+And here is the next thing that comes up, which is configuring the network, so it asks us, please
+
+72
+00:05:04,950 --> 00:05:08,770
+enter the hostname for the system, you can type here.
+
+73
+00:05:08,820 --> 00:05:10,230
+Also anything that you want.
+
+74
+00:05:10,240 --> 00:05:16,320
+I'm just going to type here, Kelly, because we're installing Linux press enter and the next thing
+
+75
+00:05:16,320 --> 00:05:19,200
+that it asks is the domain name here.
+
+76
+00:05:19,200 --> 00:05:22,170
+For the purposes of the course, we don't need to set anything.
+
+77
+00:05:22,170 --> 00:05:26,460
+We can just leave it empty and we can press enter to continue.
+
+78
+00:05:27,520 --> 00:05:34,840
+Now, a user account must be created, so here you create the full name for the user for the purposes
+
+79
+00:05:34,840 --> 00:05:35,500
+of discourse.
+
+80
+00:05:35,530 --> 00:05:37,780
+I'm just going to call it Mr. Hacker.
+
+81
+00:05:38,470 --> 00:05:43,750
+Click on continue and username for the account that you will use to login to clinics.
+
+82
+00:05:44,110 --> 00:05:46,420
+The account name will also be Mr. Hacker.
+
+83
+00:05:46,420 --> 00:05:47,710
+For me, for you.
+
+84
+00:05:47,860 --> 00:05:49,220
+Choose anything that you like.
+
+85
+00:05:49,240 --> 00:05:53,770
+Just make sure that you remember it after the installation and press enter.
+
+86
+00:05:53,770 --> 00:05:57,970
+And now we need to set the password for the user here.
+
+87
+00:05:57,970 --> 00:06:00,160
+You type the password, whatever you like.
+
+88
+00:06:01,070 --> 00:06:09,140
+And here you confirm the password, once you do that, you also have an option to show password in clear.
+
+89
+00:06:09,660 --> 00:06:10,610
+I don't really need that.
+
+90
+00:06:10,620 --> 00:06:12,500
+So I'm just going to go on continue.
+
+91
+00:06:12,920 --> 00:06:17,480
+And you can see sometimes mouse actually works, but sometimes it doesn't.
+
+92
+00:06:17,510 --> 00:06:23,990
+So I'm just going to go and navigate again with my keyboard and select the time zone that I'm at.
+
+93
+00:06:24,320 --> 00:06:28,250
+Since I'm at Eastern Time Zone, I'm going to select Eastern.
+
+94
+00:06:28,250 --> 00:06:33,040
+You select whichever you want and it will continue with the installation.
+
+95
+00:06:33,470 --> 00:06:35,090
+Let's wait for the next step.
+
+96
+00:06:36,210 --> 00:06:41,460
+And here it is, partitioning this now, this might be a little bit harder for you to understand in
+
+97
+00:06:41,460 --> 00:06:43,980
+case your first time running Linux.
+
+98
+00:06:44,460 --> 00:06:48,440
+Nonetheless, here we want to go with the guided use entire disk.
+
+99
+00:06:48,630 --> 00:06:50,720
+We don't want to go any other option.
+
+100
+00:06:50,730 --> 00:06:53,960
+And here we want to select our own hard disk that we created.
+
+101
+00:06:54,150 --> 00:06:56,790
+So you will probably have only one option here.
+
+102
+00:06:56,940 --> 00:06:59,520
+Just select that one and click enter.
+
+103
+00:07:00,350 --> 00:07:07,010
+And this part, we want to go with all files in one partition, as it says it's recommended for new
+
+104
+00:07:07,010 --> 00:07:13,040
+users, for those of you that friendliness before you might also be familiar with slash home, slash
+
+105
+00:07:13,040 --> 00:07:14,270
+VA slash top.
+
+106
+00:07:14,660 --> 00:07:19,400
+And these are just some directories that we get inside of Linux.
+
+107
+00:07:19,400 --> 00:07:25,270
+Picture them as just some already made folders the clinic system gives us after the installation.
+
+108
+00:07:25,670 --> 00:07:27,560
+We don't want to separate any of these.
+
+109
+00:07:27,810 --> 00:07:29,930
+Let's pretend that we don't know anything about this.
+
+110
+00:07:29,930 --> 00:07:35,240
+So we're just going to go with the recommended settings that says all files in one partition and click
+
+111
+00:07:35,630 --> 00:07:36,080
+enter.
+
+112
+00:07:37,470 --> 00:07:43,590
+It will ask, has finished petitioning and write changes to this, we want to click, enter, and here
+
+113
+00:07:43,590 --> 00:07:46,530
+it asks us for the confirmation where we want to click.
+
+114
+00:07:46,890 --> 00:07:48,350
+Yes, so change from now.
+
+115
+00:07:48,480 --> 00:07:48,840
+Yes.
+
+116
+00:07:48,840 --> 00:07:49,560
+And click.
+
+117
+00:07:49,920 --> 00:07:50,400
+Enter.
+
+118
+00:07:51,230 --> 00:07:57,080
+And this will pretty much start the installation process of your clinics now, there will be a couple
+
+119
+00:07:57,080 --> 00:07:58,880
+of more questions during the installation.
+
+120
+00:07:58,890 --> 00:08:02,450
+So I'm just going to fast forward to the next question.
+
+121
+00:08:03,200 --> 00:08:06,770
+OK, so after a couple of minutes, we get this window prompted.
+
+122
+00:08:06,770 --> 00:08:12,570
+So it asks us to customize our own desktop with different settings.
+
+123
+00:08:12,710 --> 00:08:17,840
+So here, what we want to do is we want to select all of these that are checked by default, which is
+
+124
+00:08:17,840 --> 00:08:22,520
+desktop environment, X, F.C. and collection of tools.
+
+125
+00:08:22,670 --> 00:08:27,920
+However, we also want to check this large option right here.
+
+126
+00:08:28,220 --> 00:08:33,080
+This means that it will also install some additional tools inside of our Callinan's machine.
+
+127
+00:08:33,500 --> 00:08:34,910
+And the more tools, the better.
+
+128
+00:08:34,910 --> 00:08:38,090
+We never know when we are going to use some of these tools.
+
+129
+00:08:38,120 --> 00:08:42,740
+So let's just go and select large and we can proceed with the installation.
+
+130
+00:08:43,680 --> 00:08:46,960
+This next part will take some time to finish.
+
+131
+00:08:46,980 --> 00:08:49,260
+It will take around 30 to 40 minutes to finish.
+
+132
+00:08:49,260 --> 00:08:54,930
+So just sit back, grab something to drink, and I will see you guys when the next question pops up.
+
+133
+00:08:56,710 --> 00:09:02,920
+OK, so here's the next question, and this isn't really that important to us, it would be more important
+
+134
+00:09:02,920 --> 00:09:07,800
+if we were to install Linux as a main operating system and not as a virtual machine.
+
+135
+00:09:08,380 --> 00:09:10,090
+But let's read it nonetheless.
+
+136
+00:09:10,390 --> 00:09:15,820
+As it says, it seems that this is the new installation is the only operating system on this computer.
+
+137
+00:09:16,150 --> 00:09:23,680
+If so, it should be safe to install the bootloader to your primary drive warning if your computer has
+
+138
+00:09:23,680 --> 00:09:26,620
+another operating system that the installer failed to detect.
+
+139
+00:09:26,980 --> 00:09:32,980
+This will make that operating system temporarily unsuitable, though Grupp can be manually configured
+
+140
+00:09:32,980 --> 00:09:33,340
+later.
+
+141
+00:09:33,340 --> 00:09:36,270
+To put it now here we want to select.
+
+142
+00:09:36,280 --> 00:09:42,340
+Yes, because our virtual machine doesn't have any other operating system running besides Carol Linux.
+
+143
+00:09:42,850 --> 00:09:44,560
+So let's select.
+
+144
+00:09:44,560 --> 00:09:47,260
+Yes, right here and let's click on CONTINUE.
+
+145
+00:09:48,410 --> 00:09:57,380
+Under here, we want to select this as the age and we want to continue and this will pretty much finish
+
+146
+00:09:57,380 --> 00:10:03,050
+our installation, it will take a couple more minutes for this to end, and then we will have a working
+
+147
+00:10:03,050 --> 00:10:04,790
+clinic's virtual machine.
+
+148
+00:10:06,060 --> 00:10:07,780
+And here is the last question.
+
+149
+00:10:07,800 --> 00:10:13,590
+It says installation is complete, so it is time to put into your new system, make sure to remove any
+
+150
+00:10:13,590 --> 00:10:18,960
+installation media so that you put into the new system rather than restarting the installation.
+
+151
+00:10:19,800 --> 00:10:25,020
+Since we don't have any installation media, we can just click on continue without unplugging anything
+
+152
+00:10:25,020 --> 00:10:26,220
+or removing anything.
+
+153
+00:10:26,550 --> 00:10:30,050
+And our installation is complete now.
+
+154
+00:10:30,090 --> 00:10:35,320
+Our virtual machine will reboot and we will be able to use our Linux virtual machine.
+
+155
+00:10:35,910 --> 00:10:39,540
+Let's wait for a couple of seconds for our login screen to pop out.
+
+156
+00:10:40,680 --> 00:10:46,570
+And here is our login screen, our Caledonius machine is working perfectly us.
+
+157
+00:10:47,010 --> 00:10:52,920
+Now here we want to type in the username that we created during the installation, as well as the password
+
+158
+00:10:52,920 --> 00:10:54,690
+that was set during the installation.
+
+159
+00:10:55,290 --> 00:10:58,530
+So I'm just going to go with Mr. Hacker because that is what they set.
+
+160
+00:10:58,800 --> 00:11:02,980
+And I will type here the password for Mr. Hacker account.
+
+161
+00:11:03,660 --> 00:11:06,390
+This will open our desktop environment.
+
+162
+00:11:07,530 --> 00:11:14,220
+In case you're also stuck like this with a smaller screen, in order to make your machine full screen,
+
+163
+00:11:14,760 --> 00:11:19,490
+you can just lower the screen and enlarge it once again.
+
+164
+00:11:19,500 --> 00:11:23,040
+And this will actually fix the issue in 90 percent of cases.
+
+165
+00:11:23,250 --> 00:11:26,700
+And now we can see the clinic's desktop environment.
+
+166
+00:11:27,860 --> 00:11:33,110
+As I mentioned, and as we already know by now, this is a Linux system, so if you're not familiar
+
+167
+00:11:33,110 --> 00:11:39,590
+with the limbic system and Linux terminal command lines and commands that we will use, make sure you
+
+168
+00:11:39,590 --> 00:11:44,570
+check out the bonus section of the course where we actually cover Linux basics, where we teach the
+
+169
+00:11:44,570 --> 00:11:50,900
+basic commands, where we teach how we can use Linux terminal in order to execute what we want.
+
+170
+00:11:52,130 --> 00:11:57,530
+Nonetheless, if you are familiar with Linux and with Linux terminal, feel free to proceed with the
+
+171
+00:11:57,530 --> 00:11:57,980
+course.
+
+172
+00:11:57,990 --> 00:12:04,370
+We made our virtual hacking machine and the next thing that we want to do is we want to create a virtual
+
+173
+00:12:04,370 --> 00:12:06,480
+machine that we will use to attack.
+
+174
+00:12:07,070 --> 00:12:07,890
+OK, awesome.
+
+175
+00:12:07,970 --> 00:12:12,950
+We finished a big part of setting up our virtual lab and I will see you guys in the next video.

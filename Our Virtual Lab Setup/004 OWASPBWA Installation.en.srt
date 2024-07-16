@@ -1,0 +1,459 @@
+1
+00:00:00,330 --> 00:00:01,030
+Welcome back.
+
+2
+00:00:01,620 --> 00:00:09,240
+It's time to install the machine that we will use to attack for this course, I have chosen the OS Broken
+
+3
+00:00:09,240 --> 00:00:10,800
+Web Applications Project.
+
+4
+00:00:11,610 --> 00:00:12,510
+Why this machine?
+
+5
+00:00:13,110 --> 00:00:15,690
+Well, first of all, it's very simple to install.
+
+6
+00:00:15,690 --> 00:00:18,450
+It takes quite a little time compared to Kalanick.
+
+7
+00:00:18,490 --> 00:00:21,150
+It will only take us a minute or two to install it.
+
+8
+00:00:21,900 --> 00:00:28,980
+And it also has a bunch of vulnerable Web applications hosted on this machine that we can use to target
+
+9
+00:00:28,980 --> 00:00:29,930
+and attack.
+
+10
+00:00:30,570 --> 00:00:36,800
+Now, to download it, we can navigate to the link of SourceForge dot net slash projects.
+
+11
+00:00:36,930 --> 00:00:38,880
+Slash or wasp b.
+
+12
+00:00:38,880 --> 00:00:39,660
+W a.
+
+13
+00:00:40,580 --> 00:00:45,770
+Under this link, we will have the download button and then just by clicking on it, we can start the
+
+14
+00:00:45,770 --> 00:00:52,700
+downloading process, which will ask us where we want to save the Wesp Broken Web application virtual
+
+15
+00:00:52,700 --> 00:00:53,100
+machine.
+
+16
+00:00:53,900 --> 00:00:58,430
+Now, since I already have it downloaded, I'm not going to do that, but I just saved it right here
+
+17
+00:00:58,430 --> 00:00:59,320
+on my desktop.
+
+18
+00:00:59,570 --> 00:01:05,780
+And as you may notice, once you start downloading it, it will take a couple of minutes because the
+
+19
+00:01:05,780 --> 00:01:08,300
+file size is around two gigabytes large.
+
+20
+00:01:08,600 --> 00:01:14,010
+But once you finish with the downloading, you will have this zip file right here.
+
+21
+00:01:14,570 --> 00:01:19,700
+So in order to get our files that we need, we must extract this zip file first.
+
+22
+00:01:20,620 --> 00:01:27,250
+After we extracted, you will get a folder like this and inside of that folder you will have these files.
+
+23
+00:01:28,490 --> 00:01:31,710
+Now, these are the files that we need in order to create a virtual machine.
+
+24
+00:01:32,180 --> 00:01:34,340
+So let's get straight to creating it.
+
+25
+00:01:34,640 --> 00:01:37,040
+OK, open up your virtual box.
+
+26
+00:01:37,040 --> 00:01:42,670
+And we're already familiar as to how we can start the process of creating a virtual machine, navigate
+
+27
+00:01:42,680 --> 00:01:44,450
+to tools and click on.
+
+28
+00:01:45,830 --> 00:01:48,890
+Now we get this window that we got for our clinics as well.
+
+29
+00:01:48,890 --> 00:01:55,310
+And here we're just going to call it a WASP B W A now, of course, you can call it whatever you like.
+
+30
+00:01:55,320 --> 00:01:57,050
+I'm just going to leave it with this name.
+
+31
+00:01:57,320 --> 00:02:02,570
+And since this is also a Linux machine under type, we want to select Linux.
+
+32
+00:02:03,290 --> 00:02:10,150
+A version of Linux, however, should be all the way down to other Linux 64 or other Linux 32 bit.
+
+33
+00:02:10,970 --> 00:02:14,480
+Let me select other Linux 64 bit and I will proceed the next.
+
+34
+00:02:15,400 --> 00:02:20,770
+Under the memory size, you can live with anything between five hundred and twelve megabytes, up to
+
+35
+00:02:20,770 --> 00:02:24,530
+one gigabyte, it really doesn't need any more ram memory.
+
+36
+00:02:24,550 --> 00:02:30,040
+I'm just going to leave it on one gigabyte of RAM and I'm going to proceed with the next step.
+
+37
+00:02:31,160 --> 00:02:36,650
+This is the part that differs from colonics installation, instead of going with creative Ertl hard
+
+38
+00:02:36,650 --> 00:02:36,900
+disk.
+
+39
+00:02:36,930 --> 00:02:41,690
+Now we want to select use an existing virtual hard disk.
+
+40
+00:02:42,350 --> 00:02:46,160
+And under that, we want to go to this icon right here.
+
+41
+00:02:47,400 --> 00:02:49,170
+And we want to click on at.
+
+42
+00:02:50,690 --> 00:02:57,170
+Once we do that, we want to navigate to where our folder is with extracted files from our zip file
+
+43
+00:02:57,170 --> 00:03:01,970
+that we downloaded, double click there and you will have all of these options.
+
+44
+00:03:02,120 --> 00:03:09,080
+Now, the file that we want to choose right here is going to be over broken web apps, S.L one without
+
+45
+00:03:09,080 --> 00:03:11,360
+any extension, as these ones have.
+
+46
+00:03:11,480 --> 00:03:16,790
+So we want to select this one and you will notice that its size is also the smallest.
+
+47
+00:03:17,210 --> 00:03:18,380
+Let's select it.
+
+48
+00:03:19,010 --> 00:03:22,640
+Let's double click it again and let's click on Create.
+
+49
+00:03:23,800 --> 00:03:28,660
+Before starting this machine, I just want to mention a few things if we go to settings.
+
+50
+00:03:29,810 --> 00:03:37,460
+And we go to network settings, we also want to change from that to breeched adapter, the same thing
+
+51
+00:03:37,460 --> 00:03:39,710
+that we did with our Kleenex machine.
+
+52
+00:03:40,160 --> 00:03:45,560
+But with this machine, we need to be a little bit cautious because this is a vulnerable machine.
+
+53
+00:03:45,560 --> 00:03:49,490
+It hosts a Web page with a bunch of vulnerabilities.
+
+54
+00:03:49,700 --> 00:03:54,620
+So only use Bridgit adapter if you're running this machine in a safe home network.
+
+55
+00:03:54,780 --> 00:03:59,240
+If you're running it in your own network, then feel free to use Brutsch adapter.
+
+56
+00:03:59,780 --> 00:04:06,920
+Don't use bridge adapter in a company network or in a public network or anywhere else that there might
+
+57
+00:04:06,920 --> 00:04:10,120
+be untrusted devices, even though it's a virtual machine.
+
+58
+00:04:10,130 --> 00:04:14,300
+But nonetheless, it's always good to have maximum security as possible.
+
+59
+00:04:15,340 --> 00:04:20,640
+So select the chapter on their names, select the adapter that you want and click on, OK?
+
+60
+00:04:21,670 --> 00:04:27,370
+And that's pretty much it all we have to do right now is start the machine and it will start the process
+
+61
+00:04:27,370 --> 00:04:29,700
+of installing all the things that it needs.
+
+62
+00:04:29,710 --> 00:04:33,620
+And that pretty much takes a couple of minutes, not too long.
+
+63
+00:04:34,210 --> 00:04:35,830
+So let's just wait for that.
+
+64
+00:04:38,380 --> 00:04:43,250
+And here it is, after two or three minutes, the machine is ready to use.
+
+65
+00:04:43,750 --> 00:04:47,950
+Now, you might notice that it doesn't have any display whatsoever.
+
+66
+00:04:48,490 --> 00:04:53,710
+Instead, we get this command line interface that we can use and it's made like this.
+
+67
+00:04:53,710 --> 00:04:59,530
+So that machine could take as little space as possible and it can be made as fast as possible.
+
+68
+00:05:00,130 --> 00:05:05,830
+Of course, in order for us to actually be able to access this command line, we need to log in first.
+
+69
+00:05:05,830 --> 00:05:13,410
+And it tells us down here that we can log in with username and password or WASP B.W..
+
+70
+00:05:14,170 --> 00:05:15,760
+So let's type that in
+
+71
+00:05:18,760 --> 00:05:25,180
+and it will give us something like a terminal and we can use the terminal to run the commands.
+
+72
+00:05:25,180 --> 00:05:30,160
+The same commands that we can't run in a regular Linux terminal such as Alice, Who Am I?
+
+73
+00:05:30,160 --> 00:05:31,480
+And a bunch of other commands.
+
+74
+00:05:31,480 --> 00:05:33,280
+We can also ping other devices.
+
+75
+00:05:33,910 --> 00:05:40,930
+And it also gives us our IP address right here, which in my case is 192, that 168, that one that
+
+76
+00:05:40,930 --> 00:05:41,230
+for.
+
+77
+00:05:41,770 --> 00:05:44,660
+And this is another reason that we set it to bridge that chapter.
+
+78
+00:05:44,890 --> 00:05:50,460
+It gave me an IP address that I can visit from any network device that they have connected to my network.
+
+79
+00:05:50,920 --> 00:05:57,070
+So I'm just going to go for my host machine and type in one eye to that 168, that one that for now,
+
+80
+00:05:57,070 --> 00:06:00,610
+in your case, this will probably be a different IP address.
+
+81
+00:06:00,610 --> 00:06:04,480
+So you can either check it right here or you can also type the command.
+
+82
+00:06:04,720 --> 00:06:10,740
+I have config, which will also give you an IP address of all of us, BWI.
+
+83
+00:06:11,770 --> 00:06:16,750
+So let me navigate to the IP address of this virtual machine inside of my House Machine's browser.
+
+84
+00:06:19,800 --> 00:06:22,650
+And this is the page that it should open up.
+
+85
+00:06:23,470 --> 00:06:30,040
+Here we have many things from training applications to realistic, intentionally vulnerable applications.
+
+86
+00:06:30,550 --> 00:06:36,460
+We also have some old vulnerable versions of real applications and we have applications for testing
+
+87
+00:06:36,460 --> 00:06:37,370
+tools as well.
+
+88
+00:06:37,390 --> 00:06:39,150
+Some other things as well.
+
+89
+00:06:40,080 --> 00:06:44,550
+Now, there are a lot of things here we're not going to cover all of them, but we're going to cover
+
+90
+00:06:44,550 --> 00:06:52,440
+some that are aimed at discovering the most common website vulnerabilities now that we got it set up.
+
+91
+00:06:52,470 --> 00:06:59,310
+Let's also make sure that we can communicate with this over SPW, a machine from our calumnies machine.
+
+92
+00:06:59,550 --> 00:07:00,880
+So start both of them.
+
+93
+00:07:01,050 --> 00:07:03,150
+We already have our own USB started.
+
+94
+00:07:03,480 --> 00:07:07,110
+Let's start our Linux machine and wait for it to boot up.
+
+95
+00:07:09,270 --> 00:07:17,530
+So here is our login screen, let's log in and to be able to check whether we can communicate with our
+
+96
+00:07:17,730 --> 00:07:22,590
+wesp machine, what we can do is we can simply just open our terminal.
+
+97
+00:07:22,590 --> 00:07:27,990
+And by the way, once again, if you're not familiar with terminal, make sure that you check out the
+
+98
+00:07:28,000 --> 00:07:30,600
+section on Linux basics there.
+
+99
+00:07:30,600 --> 00:07:32,940
+We teach the basic commands of Linux terminals.
+
+100
+00:07:32,970 --> 00:07:40,530
+You can get familiar with it and it hopefully will become your second major in the next open terminal.
+
+101
+00:07:40,560 --> 00:07:41,670
+We use this icon.
+
+102
+00:07:42,150 --> 00:07:46,470
+It will open up this command line where we can type our commands.
+
+103
+00:07:46,470 --> 00:07:51,750
+And in our case, we want to pick one to that 168 at one point four.
+
+104
+00:07:51,990 --> 00:07:53,880
+And once again, this is in my case.
+
+105
+00:07:53,880 --> 00:07:56,910
+In your case, it might be a different IP address.
+
+106
+00:07:57,240 --> 00:07:58,710
+So I'm just going to press enter.
+
+107
+00:07:59,280 --> 00:08:05,300
+And if you get an output like this, that means that we successfully pinged this machine.
+
+108
+00:08:05,760 --> 00:08:07,710
+So the connection part is good.
+
+109
+00:08:07,860 --> 00:08:12,620
+They can communicate between each other and in order to close off this command, you can type control,
+
+110
+00:08:12,630 --> 00:08:16,160
+see simply and it'll finish with being OK.
+
+111
+00:08:16,380 --> 00:08:21,540
+Also, now that we set this up, the next thing and the last thing that we want to do in setting up
+
+112
+00:08:21,540 --> 00:08:26,300
+our environment is we want to just create an account on Try Hack Me website.
+
+113
+00:08:27,060 --> 00:08:28,760
+So that will be a rather short video.
+
+114
+00:08:28,770 --> 00:08:34,050
+We've finished most of our work and let's create the tri hacking account in the next video.
+
+115
+00:08:34,530 --> 00:08:35,120
+See you there.

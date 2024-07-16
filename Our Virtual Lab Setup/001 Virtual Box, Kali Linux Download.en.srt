@@ -1,0 +1,603 @@
+1
+00:00:00,910 --> 00:00:04,640
+All right, time to set up our virtual environment.
+
+2
+00:00:05,410 --> 00:00:11,920
+Now, there are a lot of things that we must do first, as we said, we must create a virtual machine
+
+3
+00:00:11,920 --> 00:00:14,580
+that we are going to use for that.
+
+4
+00:00:14,590 --> 00:00:20,500
+We need the virtualization software and the operating system that we want to install.
+
+5
+00:00:21,220 --> 00:00:25,630
+The operating system that we're going to use will be clinics, as we previously mentioned.
+
+6
+00:00:26,110 --> 00:00:32,590
+And also besides that, we will also need our virtual machine that will host vulnerable Web pages that
+
+7
+00:00:32,590 --> 00:00:33,310
+we can attack.
+
+8
+00:00:34,150 --> 00:00:39,560
+And another way that we're going to practice will be through a website called Tri Hack Me.
+
+9
+00:00:40,320 --> 00:00:45,370
+Now, this website does offer a paid subscription, but we're going to cover things that the website
+
+10
+00:00:45,370 --> 00:00:49,100
+offers for free just so we can include everyone inside of it.
+
+11
+00:00:49,450 --> 00:00:55,900
+It has really good practice examples of website vulnerabilities with the combination of vulnerable virtual
+
+12
+00:00:55,900 --> 00:00:57,580
+machine and with practice.
+
+13
+00:00:57,580 --> 00:01:03,070
+Examples on this website will cover most known and most common website vulnerabilities.
+
+14
+00:01:03,670 --> 00:01:09,580
+OK, let's first start off by downloading Virtual Box, which is the virtualization software that we
+
+15
+00:01:09,720 --> 00:01:13,390
+use, and let's also download our clinic's operating system.
+
+16
+00:01:15,060 --> 00:01:18,990
+Let's start with virtual box first to download Virtual Box.
+
+17
+00:01:19,020 --> 00:01:22,770
+We want to navigate to the page virtual box dot org.
+
+18
+00:01:23,900 --> 00:01:28,760
+It will lead you to this official page of the website, and if you want, you can read through all of
+
+19
+00:01:28,760 --> 00:01:31,870
+these articles and about four toybox if you'd like.
+
+20
+00:01:32,030 --> 00:01:35,360
+But right now, we're going to see how we can download and install it.
+
+21
+00:01:36,290 --> 00:01:38,270
+As it says, it has a big download button.
+
+22
+00:01:38,500 --> 00:01:44,900
+Just click on it and it will lead us to this page, which will offer us different platform packages
+
+23
+00:01:45,200 --> 00:01:47,960
+based on which operating system you're running.
+
+24
+00:01:48,290 --> 00:01:52,250
+As we can see, the current version is six point one point eighteen.
+
+25
+00:01:52,820 --> 00:01:58,760
+And the current platform packages that they have are for Windows hosts or OSX hosts, Linux distributions
+
+26
+00:01:58,760 --> 00:02:00,410
+and Solaris hosts.
+
+27
+00:02:01,070 --> 00:02:05,020
+Depending on your operating system, you want to choose which one you want to install.
+
+28
+00:02:05,330 --> 00:02:10,100
+Since I'm running windows on this machine, I will click on Windows Host.
+
+29
+00:02:11,150 --> 00:02:16,660
+It will ask me what it wants to download a virtual box just like desktop and click save.
+
+30
+00:02:17,150 --> 00:02:20,810
+And as you can see, it will start downloading it right here.
+
+31
+00:02:21,470 --> 00:02:25,460
+Since I already have it, I will just cancel this download, already have it installed.
+
+32
+00:02:25,460 --> 00:02:27,350
+So I'm not going to do that right now.
+
+33
+00:02:28,280 --> 00:02:34,480
+And while it's downloading for you, let's navigate to the clinic's official website, which is Etling
+
+34
+00:02:34,490 --> 00:02:39,860
+Kelly dot org, and let's see how we can download Cal Linux operating system.
+
+35
+00:02:40,790 --> 00:02:47,130
+OK, so we open up this page, it is the most advanced penetration testing distribution.
+
+36
+00:02:47,690 --> 00:02:51,380
+And as with Purtle Box, it has this download button.
+
+37
+00:02:51,740 --> 00:02:52,940
+Let's click on it.
+
+38
+00:02:54,140 --> 00:03:01,100
+And it will lead us to the official download page now this download page offers the newest release of
+
+39
+00:03:01,310 --> 00:03:08,630
+Linux or should I say the newest official release, because you also have the weekly unstable and untested
+
+40
+00:03:08,630 --> 00:03:09,220
+releases.
+
+41
+00:03:09,680 --> 00:03:12,340
+We're interested in the official stable release.
+
+42
+00:03:13,040 --> 00:03:18,980
+Currently, it is the clinic's two thousand twenty one point one and the new version of clinics actually
+
+43
+00:03:18,980 --> 00:03:21,030
+comes out pretty much every two months.
+
+44
+00:03:21,050 --> 00:03:27,620
+So if you encounter a new version of Linux or a newer version of your toolbox, feel free to download
+
+45
+00:03:27,620 --> 00:03:31,610
+that one instead, since right now the newest one is two thousand twenty one point one.
+
+46
+00:03:31,700 --> 00:03:32,900
+I will download this.
+
+47
+00:03:34,030 --> 00:03:37,130
+Now, we have quite a few options right here that we can choose from.
+
+48
+00:03:37,510 --> 00:03:46,900
+We have the 64 bit in-store clinics, 64 bit live and clinics, 64 bit net insular as well.
+
+49
+00:03:46,930 --> 00:03:51,850
+We have four Apple and one we have clinics are 60 for installer.
+
+50
+00:03:52,360 --> 00:03:54,730
+We have the live and the net installer.
+
+51
+00:03:54,790 --> 00:03:57,020
+And we also have four 32 bit systems.
+
+52
+00:03:57,670 --> 00:04:01,390
+Now, if you're running Apple and one, you can go with this one.
+
+53
+00:04:01,690 --> 00:04:07,140
+If you're running a 64 bit machine, you can go with Kalanak, 64 bit insular.
+
+54
+00:04:07,360 --> 00:04:11,920
+And if you're in any case, which I doubt anyone will be running at 32 bit machine.
+
+55
+00:04:12,220 --> 00:04:16,720
+But if you do, you can download clinics, 32 bit insular.
+
+56
+00:04:17,500 --> 00:04:24,010
+Now, since I'm running a 64 bit Windows machine, I will go with Kalinich 64 bit insular if I click
+
+57
+00:04:24,010 --> 00:04:24,400
+on this.
+
+58
+00:04:25,970 --> 00:04:28,700
+It will once again ask me where I want to download it.
+
+59
+00:04:28,940 --> 00:04:31,820
+I will select desktop and I will click save.
+
+60
+00:04:32,420 --> 00:04:35,530
+You will notice that the size of this file is pretty large.
+
+61
+00:04:35,540 --> 00:04:38,340
+It's four gigabytes, so it will take some time.
+
+62
+00:04:39,200 --> 00:04:43,040
+Now, luckily, I already have it, so I'm just going to cancel this download.
+
+63
+00:04:43,340 --> 00:04:47,090
+You just wait for both of your downloads to finish and then we can proceed.
+
+64
+00:04:47,480 --> 00:04:52,030
+Oh, and by the way, you also have an option to download it over Torrent if you'd like.
+
+65
+00:04:52,490 --> 00:04:53,560
+It's completely up to you.
+
+66
+00:04:54,720 --> 00:04:55,850
+OK, awesome.
+
+67
+00:04:56,610 --> 00:05:01,620
+Now, let's say that you have both of your files ready if you don't just post this video until your
+
+68
+00:05:01,620 --> 00:05:06,690
+downloads are finished and you should have these two files on your desktop.
+
+69
+00:05:07,490 --> 00:05:10,810
+Let's go with installing a virtual box first.
+
+70
+00:05:11,140 --> 00:05:14,360
+So to do that, we can double click the installer file.
+
+71
+00:05:18,800 --> 00:05:24,650
+It will open the welcome window we want to just go next to we want to go next here as well and here
+
+72
+00:05:24,650 --> 00:05:28,930
+you can check some option if you don't like, we'll just create the shortcut on the desktop.
+
+73
+00:05:28,940 --> 00:05:32,000
+And I will leave everything checked and click on next.
+
+74
+00:05:32,420 --> 00:05:39,290
+And here we have a warning that says installing the Oracle virtual box networking feature will reset
+
+75
+00:05:39,290 --> 00:05:43,220
+your network connection and temporarily disconnect you from the network.
+
+76
+00:05:43,220 --> 00:05:44,640
+Proceed with the installation now.
+
+77
+00:05:44,660 --> 00:05:49,280
+So this pretty much says, in case you're doing something important over the Internet, make sure you
+
+78
+00:05:49,280 --> 00:05:52,070
+finish with that first before installing virtual box.
+
+79
+00:05:52,340 --> 00:05:56,640
+Otherwise, you might have some Internet connection problems during the installation.
+
+80
+00:05:57,380 --> 00:06:01,490
+I will just select here, proceed and I will click install.
+
+81
+00:06:02,240 --> 00:06:05,960
+OK, so here it asks for administrator password.
+
+82
+00:06:05,960 --> 00:06:07,990
+Since I don't have one, I will just click here.
+
+83
+00:06:08,000 --> 00:06:08,450
+Yes.
+
+84
+00:06:08,450 --> 00:06:10,810
+And it will install a virtual box for me.
+
+85
+00:06:11,180 --> 00:06:12,620
+This doesn't take much time.
+
+86
+00:06:12,620 --> 00:06:20,150
+It takes maybe a minute or two depending on your system and once it finishes it should open up your
+
+87
+00:06:20,160 --> 00:06:21,320
+virtual box.
+
+88
+00:06:22,400 --> 00:06:23,730
+And here is the finished window.
+
+89
+00:06:23,750 --> 00:06:27,830
+We want to check StarTalk for Tool Box and click on Finish.
+
+90
+00:06:30,070 --> 00:06:33,050
+Let's wait a couple of seconds, and here it is.
+
+91
+00:06:33,700 --> 00:06:36,560
+This is the window of Oracle for Tool Box.
+
+92
+00:06:37,370 --> 00:06:39,850
+Now, let's do one more thing before we end this video.
+
+93
+00:06:40,120 --> 00:06:44,090
+Let's see how we can create a virtual machine inside the virtual box.
+
+94
+00:06:44,440 --> 00:06:46,780
+So this is the official window that we have.
+
+95
+00:06:47,020 --> 00:06:48,700
+We have a couple of buttons right here.
+
+96
+00:06:48,850 --> 00:06:52,600
+And here will be our machines that we currently don't have.
+
+97
+00:06:52,750 --> 00:06:54,130
+So let's create one.
+
+98
+00:06:54,310 --> 00:06:56,880
+Let's create our colonics virtual machine.
+
+99
+00:06:57,610 --> 00:07:04,780
+To do that, we want to click on this button that says you click on it and it will ask us for a couple
+
+100
+00:07:04,780 --> 00:07:07,590
+of information, name of the virtual machine.
+
+101
+00:07:07,600 --> 00:07:11,140
+And here, let's say that we type Kaldi two thousand twenty one.
+
+102
+00:07:12,450 --> 00:07:19,140
+Here you can select the path where the machine folder will be stored, here we select the type of operating
+
+103
+00:07:19,140 --> 00:07:24,570
+system and since Cal Linux is a Linux operating system, we will select right here, Linux.
+
+104
+00:07:25,710 --> 00:07:31,020
+And the version now this can be a little bit tricky if you don't know, but luckily I'm here to tell
+
+105
+00:07:31,020 --> 00:07:38,850
+you that Carol Lin is based on Debian, so we want to select here Debian 64 bit, or in case you have
+
+106
+00:07:38,850 --> 00:07:42,810
+a 32 bit machine, you want to select Debian 32 a bit.
+
+107
+00:07:43,410 --> 00:07:50,760
+Since we downloaded the clinic 64 bit and we have a 64 bit machine, we want to proceed with the version
+
+108
+00:07:50,760 --> 00:07:51,920
+of Debian 64 bit.
+
+109
+00:07:52,050 --> 00:07:53,430
+Let's click on Next.
+
+110
+00:07:54,180 --> 00:07:59,690
+The next thing that it asks us is what ram memory we want to give to this virtual machine.
+
+111
+00:08:00,570 --> 00:08:02,010
+This is completely up to you.
+
+112
+00:08:02,490 --> 00:08:09,060
+I'm just here to advise you that you should not go below one gigabyte ram and two gigabyte of RAM is
+
+113
+00:08:09,060 --> 00:08:10,270
+pretty much all you need.
+
+114
+00:08:10,290 --> 00:08:11,850
+You don't need more than this.
+
+115
+00:08:12,330 --> 00:08:19,080
+If you have like four gigabyte ram or less, feel free to proceed by setting only one gigabyte.
+
+116
+00:08:19,080 --> 00:08:25,920
+But since I have more than four gigabytes of RAM on my house machine, I can set here at least two gigabytes.
+
+117
+00:08:26,640 --> 00:08:31,800
+If you have like thirty two gigabytes of RAM on your machine, you can even increase this up to four
+
+118
+00:08:31,800 --> 00:08:36,590
+or eight gigabytes of RAM depending on how fast you want your machine to work.
+
+119
+00:08:37,110 --> 00:08:42,690
+Now I'm completely fine with two, so I'm just going to select two thousand forty eight megabytes and
+
+120
+00:08:42,690 --> 00:08:46,140
+I'm going to click on Next under the hard disk.
+
+121
+00:08:46,140 --> 00:08:49,020
+It asks us for a couple of options.
+
+122
+00:08:49,020 --> 00:08:53,520
+We just want to stick with the one that's already checked, which is create a virtual hard disk now
+
+123
+00:08:53,730 --> 00:09:01,710
+and we want to click on create the hard disk file type will be VDI or virtual box disk image.
+
+124
+00:09:01,890 --> 00:09:02,910
+Click on next.
+
+125
+00:09:04,130 --> 00:09:06,860
+And storage on a physical hard disk.
+
+126
+00:09:07,580 --> 00:09:09,000
+This is completely up to you.
+
+127
+00:09:09,620 --> 00:09:14,570
+I'm just going to go with the NEMATI allocated and you have the explanation of both of these right here.
+
+128
+00:09:15,020 --> 00:09:21,350
+As it says, a dynamically allocated hard disk file will only use based on your physical hard disk as
+
+129
+00:09:21,350 --> 00:09:27,230
+it fills up up to the maximum fixed site, although it will not shrink again automatically.
+
+130
+00:09:27,470 --> 00:09:34,730
+One space on it is frit and a fixed size hard disk file may take longer to create that subsystems,
+
+131
+00:09:34,940 --> 00:09:37,340
+but it is often faster to use.
+
+132
+00:09:38,300 --> 00:09:43,330
+So a fixed size is indeed sometimes faster to use, but nonetheless, I'm just going to go with dynamically
+
+133
+00:09:43,340 --> 00:09:46,010
+allocated and I'm going to click on next.
+
+134
+00:09:46,730 --> 00:09:53,360
+And the last option, I believe, is how much this size we want to give to our virtual machine.
+
+135
+00:09:54,080 --> 00:10:01,210
+Now, I advise you not to go below 25 to 30 gigabytes of hard disk space.
+
+136
+00:10:01,760 --> 00:10:04,580
+I'm just going to select here like thirty eight.
+
+137
+00:10:04,590 --> 00:10:05,650
+It doesn't really matter.
+
+138
+00:10:05,840 --> 00:10:11,260
+You can give it more or less if you'd like, but don't go below twenty to twenty five gigabytes.
+
+139
+00:10:11,450 --> 00:10:14,480
+Otherwise your machine might not work.
+
+140
+00:10:14,780 --> 00:10:23,600
+OK, now that we selected all of this we can click on create and as you can see we created our first
+
+141
+00:10:23,840 --> 00:10:24,950
+virtual machine.
+
+142
+00:10:25,490 --> 00:10:30,200
+We have it right here as well as we have it's information on the right.
+
+143
+00:10:30,200 --> 00:10:36,410
+We have its general information system, information display settings, storage settings and a bunch
+
+144
+00:10:36,410 --> 00:10:39,440
+of other things that we are going to take a look at in the next video.
+
+145
+00:10:40,190 --> 00:10:42,280
+This doesn't mean that our machine will work.
+
+146
+00:10:42,290 --> 00:10:47,590
+We still have an operating system to install before being able to use this machine.
+
+147
+00:10:48,080 --> 00:10:51,050
+For now, we only created it inside a virtual box.
+
+148
+00:10:51,560 --> 00:10:58,070
+In the next video, we're going to add our Linux operating system or ISO image that we downloaded from
+
+149
+00:10:58,070 --> 00:10:59,030
+the official website.
+
+150
+00:10:59,630 --> 00:11:02,810
+And we are going to install it inside of this virtual machine.
+
+151
+00:11:02,900 --> 00:11:08,240
+And hopefully by the end of next video, we will have a working clinics virtual machine.

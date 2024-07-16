@@ -1,0 +1,79 @@
+1
+00:00:00,630 --> 00:00:01,390
+Welcome back.
+
+2
+00:00:02,100 --> 00:00:04,990
+Just a quick update on the new Kalvin website.
+
+3
+00:00:05,700 --> 00:00:14,550
+OK, so they have just changed the downloads section of this page and how they made it can be a little
+
+4
+00:00:14,550 --> 00:00:15,300
+bit confusing.
+
+5
+00:00:15,300 --> 00:00:21,110
+So I'm just making a quick update video to explain which exact version should you download.
+
+6
+00:00:21,870 --> 00:00:28,380
+So once you navigate to the calendar page, navigate to the download section and this is the new design,
+
+7
+00:00:28,770 --> 00:00:34,260
+they separated different versions into different categories on this page.
+
+8
+00:00:35,330 --> 00:00:41,030
+Now, since we talked about virtual machines, it might seem to you that we want to go to the virtual
+
+9
+00:00:41,030 --> 00:00:46,610
+machines and download a version from here, but not exactly for our course.
+
+10
+00:00:46,820 --> 00:00:48,950
+We want to go to the bare metal.
+
+11
+00:00:49,430 --> 00:00:50,180
+Click on that.
+
+12
+00:00:51,250 --> 00:00:58,690
+And here we want to download the version accordingly, we select 60 Forbert or 32 bit depending on our
+
+13
+00:00:58,690 --> 00:00:59,120
+machine.
+
+14
+00:00:59,230 --> 00:01:03,510
+Since my machine is 64 bit, I would go with the 64 bit version.
+
+15
+00:01:04,180 --> 00:01:09,370
+If you're running an apple and one chip, then you want to select this one.
+
+16
+00:01:10,660 --> 00:01:18,160
+Since once again, I'm running sixty four bit, I want to go sixty four bit insular and it will download
+
+17
+00:01:18,160 --> 00:01:20,890
+the ISO image on my desktop.
+
+18
+00:01:21,470 --> 00:01:21,870
+Awesome.
+
+19
+00:01:22,360 --> 00:01:23,740
+That's all that they wanted to say.
+
+20
+00:01:23,980 --> 00:01:25,720
+And let's continue with the course.

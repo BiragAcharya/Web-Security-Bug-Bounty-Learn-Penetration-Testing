@@ -1,0 +1,155 @@
+1
+00:00:00,470 --> 00:00:10,130
+OK, let's think for setting up our environment is creating the tri hack me account, as I already mentioned
+
+2
+00:00:10,130 --> 00:00:16,700
+on this website, we have a couple of free practice examples that we can use to elevate our skills and
+
+3
+00:00:16,700 --> 00:00:19,600
+to learn even more about website vulnerabilities.
+
+4
+00:00:20,240 --> 00:00:25,920
+But for the start, we only want to create an account and later on we will use it throughout the course.
+
+5
+00:00:26,270 --> 00:00:27,970
+For now, let's just create it.
+
+6
+00:00:28,100 --> 00:00:29,750
+So this would be a rather short video.
+
+7
+00:00:30,170 --> 00:00:34,170
+All they want to do is you want to navigate to try hack me dot com.
+
+8
+00:00:34,970 --> 00:00:40,280
+It will open up this page where you want to go on joining now, since you don't have an account, you
+
+9
+00:00:40,280 --> 00:00:42,230
+want to set it up right here.
+
+10
+00:00:43,170 --> 00:00:49,380
+So it requires an username, email, password, experience level, and to select that, you're not a
+
+11
+00:00:49,380 --> 00:00:50,400
+robot, hopefully.
+
+12
+00:00:51,310 --> 00:00:57,340
+Now, make sure that you use a valid email, because it will ask you for verification after creating
+
+13
+00:00:57,340 --> 00:01:02,170
+an account, once you do that, you can log into your account, and I will do that right now.
+
+14
+00:01:03,630 --> 00:01:09,570
+And once you log in, you should have something like this now, after you verify your email, you can
+
+15
+00:01:09,570 --> 00:01:16,470
+go and browse to learn to compete and you can check out all of the modules that this website has so
+
+16
+00:01:16,470 --> 00:01:19,860
+we can go under the modules which we went to by going online.
+
+17
+00:01:20,220 --> 00:01:25,620
+And we have some Linux fundamentals, networking fundamentals, Web hacking fundamentals, which is
+
+18
+00:01:25,620 --> 00:01:28,260
+the module that we are interested in for this course.
+
+19
+00:01:28,680 --> 00:01:32,850
+But you also have some other modules that might interest you after four.
+
+20
+00:01:32,940 --> 00:01:35,430
+Now we're mostly focused on Web hacking.
+
+21
+00:01:35,430 --> 00:01:40,560
+So you want to go to that module and here we have a couple of free exercises.
+
+22
+00:01:40,950 --> 00:01:44,420
+Now, these are the exercises that we are going to touch inside of the course.
+
+23
+00:01:44,970 --> 00:01:47,600
+This is what the platform offers us for free.
+
+24
+00:01:47,610 --> 00:01:50,550
+And we're only going to use what the platform offers us for free.
+
+25
+00:01:50,790 --> 00:01:55,010
+And later on, if you decide that you like this platform, you can upgrade to premium.
+
+26
+00:01:55,020 --> 00:01:59,610
+But for this course, it will not be needed under the dashboard.
+
+27
+00:01:59,640 --> 00:02:05,190
+You have some other things, such as how many users there are, what rank you have, and rank is simply
+
+28
+00:02:05,190 --> 00:02:07,470
+just based on how many points you get by.
+
+29
+00:02:07,470 --> 00:02:13,590
+Solving different challenges in different rooms and room is something that other people create to make
+
+30
+00:02:13,590 --> 00:02:16,650
+practice examples on a hosted vulnerable machines.
+
+31
+00:02:17,550 --> 00:02:19,230
+Once you solve them, you get points.
+
+32
+00:02:19,230 --> 00:02:21,660
+Once you get points, you become a higher rank.
+
+33
+00:02:22,470 --> 00:02:24,780
+So this is just the basic things about the platform.
+
+34
+00:02:25,140 --> 00:02:30,870
+For now, it's just important that you have an account and later on we're going to join a room and start
+
+35
+00:02:30,870 --> 00:02:33,900
+exploring different vulnerabilities at different rooms.
+
+36
+00:02:33,900 --> 00:02:36,720
+Offer us if you created everything successfully.
+
+37
+00:02:36,840 --> 00:02:43,530
+We are fully done with setting up our environment and in the next section we can start off with website
+
+38
+00:02:43,530 --> 00:02:45,980
+and numeration and information gathering.
+
+39
+00:02:46,710 --> 00:02:47,310
+So there.
